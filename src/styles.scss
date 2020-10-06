@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+@import"~@kros-sk/bootstrap/theming";
+// @import "~bootstrap/scss/bootstrap";
+
+
+@include bootstrap-reboot();
+// @include bootstrap-type();
+// @include bootstrap-images();
+// @include bootstrap-code();
+@include bootstrap-grid();
+// @include bootstrap-tables();
+@include bootstrap-forms();
+@include bootstrap-buttons();
+@include bootstrap-transitions();
+// @include bootstrap-dropdown();
+// @include bootstrap-button-group();
+// @include bootstrap-input-group();
+// @include bootstrap-custom-forms();
+@include bootstrap-nav();
+@include bootstrap-navbar();
+// @include bootstrap-card();
+// @include bootstrap-breadcrumb();
+// @include bootstrap-pagination();
+// @include bootstrap-badge();
+// @include bootstrap-jumbotron();
+// @include bootstrap-alert();
+// @include bootstrap-progress();
+// @include bootstrap-media();
+// @include bootstrap-list-group();
+// @include bootstrap-close();
+// @include bootstrap-toasts();
+// @include bootstrap-modal();
+// @include bootstrap-tooltip();
+// @include bootstrap-popover();
+// @include bootstrap-carousel();
+// @include bootstrap-spinners();
+@include bootstrap-utilities();
+// @include bootstrap-print();
+// @include kros-cards();
+// @include kros-icons();
+@include kros-typography();
+@include kros-lists();
+@include kros-sidebar();
+@include kros-detail-pages();
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
